@@ -118,7 +118,7 @@
                     <div class="row">
                         <div class="col my-auto">
                             <h2 class="price-text">
-                                ₱ {{number_format($product->product_price, 2)}}
+                                KSH {{number_format($product->product_price, 2)}}
                             </h2>
                         </div>
                         <div class="col my-auto text-right">
@@ -180,7 +180,7 @@
 
                                 <div class="row pb-2 mt-auto">
                                     <div class="col-md-12">
-                                        <div class="wrap-price"><span class="product-price-text">₱ {{number_format($suggestion->product_price, 2)}}</span></div>
+                                        <div class="wrap-price"><span class="product-price-text">KSH {{number_format($suggestion->product_price, 2)}}</span></div>
                                     </div>
                                 </div>
 

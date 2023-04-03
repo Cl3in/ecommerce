@@ -48,7 +48,7 @@
     <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6">
             <div class="card w-100">
-                <div class="card-header body-text">{{ __('Koop Hardware Login') }}</div>
+                <div class="card-header body-text">{{ __('MICA Login') }}</div>
 
                 <div class="card-body">
 

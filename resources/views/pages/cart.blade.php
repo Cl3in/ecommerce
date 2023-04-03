@@ -178,7 +178,7 @@
                             {{-- Product Price --}}
                             <div class="row pt-2">
                                 <div class="col-4 text-center md-text-right d-flex align-items-center justify-content-end">
-                                    <h6 class="my-auto cart-text-price"><strong>₱ {{number_format($item->model->product_price,2)}} <span class="text-muted">x</span></strong></h6>
+                                    <h6 class="my-auto cart-text-price"><strong>KSH {{number_format($item->model->product_price,2)}} <span class="text-muted">x</span></strong></h6>
                                 </div>
                                 {{-- Buttons --}}
                                 <div class="col-6 col-sm-8 col-md-6">
@@ -211,7 +211,7 @@
                 
                 <div class="row text-center">
                     <div class="col-md-9 col-12 pt-2 d-flex justify-content-end">
-                        <h4 id="subtotal_text" class="text-right my-auto cart-total-price">Total ₱ <strong>{{Cart::instance('cart')->subtotal()}}</strong></h4>
+                        <h4 id="subtotal_text" class="text-right my-auto cart-total-price">Total KSH <strong>{{Cart::instance('cart')->subtotal()}}</strong></h4>
                     </div>
                     <div class="col-md-3 col-12 pt-2">
                         <a style="text-decoration: none" href ="/cart/checkout" >

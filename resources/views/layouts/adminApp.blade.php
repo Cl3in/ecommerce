@@ -7,7 +7,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ (isset($title) ? $title : 'Koop Hardware' ) }}</title>
+        <title>{{ (isset($title) ? $title : 'MICA' ) }}</title>
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
@@ -823,8 +823,8 @@
             <nav class="navbar sticky-top navbar-expand-md bg-white shadow-sm top-nav py-3">
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/store') }}">
-                        {{-- {{ config('app.name', 'Laravel') }} --}}
-                        <img src="/storage/logo/kh-logo.png" alt="Koop Hardware Logo" height="40">
+                        {{-- {{ config('app.name', 'MICA') }} --}}
+                        <!-- <img src="/storage/logo/kh-logo.png" alt="Koop Hardware Logo" height="40"> -->
                     </a>
                     
                     <button id="show-sidebar" type="button" class="btn btn-sm btn-light toggler_btn mr-4" href="#">

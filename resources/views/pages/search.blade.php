@@ -319,7 +319,7 @@
     
                                     <div class="row pb-2 mt-auto">
                                         <div class="col-md-12">
-                                            <div class="wrap-price"><span class="product-price-text">₱ {{number_format($product->product_price, 2)}}</span></div>
+                                            <div class="wrap-price"><span class="product-price-text">KSH {{number_format($product->product_price, 2)}}</span></div>
                                         </div>
                                     </div>
 

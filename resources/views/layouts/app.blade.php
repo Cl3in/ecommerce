@@ -7,7 +7,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ (isset($title) ? $title : 'Koop Hardware' ) }}</title>
+        <title>MICA</title>
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
@@ -277,7 +277,7 @@
             <nav class="navbar py-4 navbar-expand-md navbar-light bg-white shadow-sm">
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/store') }}">
-                        <img src="/storage/logo/kh-logo.png" alt="Koop Hardware Logo" height="40">
+                        <!-- <img src="/storage/logo/kh-logo.png" alt="Koop Hardware Logo" height="40"> -->
                     </a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

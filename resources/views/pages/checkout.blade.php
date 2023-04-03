@@ -126,14 +126,14 @@
                                                 </td>
                 
                                                 <td class="item-table-text">
-                                                    ₱ {{$item->model->product_price}}
+                                                    KSH {{$item->model->product_price}}
                                                 </td>
                                                 <td class="item-table-text">
                                                     <p>{{$item->qty}}</p>
                                                 </td>
                                                 <td>
                                                     <h6 class="item-table-text">
-                                                        ₱ {{number_format(($item->model->product_price) * ($item->qty),2)}}
+                                                        KSH {{number_format(($item->model->product_price) * ($item->qty),2)}}
                                                     </h6>
                                                 </td>
                                             </tr>
@@ -195,7 +195,7 @@
                                 <div class="col">
                                     <p class="body-text">Cash on Delivery </p>
                                     <hr>
-                                    <p class="body-text">Total: ₱ <b id="total" class="index">{{Cart::subtotal()}}</p>
+                                    <p class="body-text">Total: KSH <b id="total" class="index">{{Cart::subtotal()}}</p>
                                 </div>
                             </div>
                         </div>

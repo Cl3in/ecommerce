@@ -223,7 +223,7 @@
 													<div class="row">
 															<div class="col">
 																<p class="body-text"><b>Order Date:</b> {{$order->created_at}}</p>
-																<p class="body-text"><b>Total:</b> ₱ {{ number_format($order->total, 2)}}</p>
+																<p class="body-text"><b>Total:</b> KSH {{ number_format($order->total, 2)}}</p>
 															</div>
 															<div class="col">
 																<p class="status body-text"> <b>Order Status: </b> 

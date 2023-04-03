@@ -98,7 +98,7 @@ class OrdersController extends Controller
         $this->initializeCart();
 
         //Send Email Confirmation
-        $this->orderConfirmationEmail($order);
+        // $this->orderConfirmationEmail($order);
 
         //Send Notification to Administrator
         $text = $order->first_name.' '.$order->middle_initial.'. '.$order->last_name.' has placed an order';
@@ -335,7 +335,7 @@ class OrdersController extends Controller
         $recipient = $order->email;
 
         //Send Email
-        $this->orderUpdateEmail($message, $recipient);
+        // $this->orderUpdateEmail($message, $recipient);
 
         return back()->with('success','Order Status Updated Successfully');
 
@@ -355,7 +355,7 @@ class OrdersController extends Controller
         $message = 'Hello, '. $order->first_name .' '. $order->middle_initial .'. '. $order->last_name . '. Your Order with Order ID # '.$order->id.' has been successfully shipped out.';
         $recipient = $order->email;
 
-        $this->orderUpdateEmail($message, $recipient);
+        // $this->orderUpdateEmail($message, $recipient);
         return back()->with('success','Order Status Updated Successfully');
     }
 
@@ -373,7 +373,7 @@ class OrdersController extends Controller
         $message = 'Hello, '. $order->first_name .' '. $order->middle_initial .'. '. $order->last_name . '. Your Order with Order ID # '.$order->id.' has been successfully delivered.';
         $recipient = $order->email;
 
-        $this->orderUpdateEmail($message, $recipient);
+        // $this->orderUpdateEmail($message, $recipient);
         return back()->with('success','Order Status Updated Successfully');
     }
 
@@ -391,7 +391,7 @@ class OrdersController extends Controller
         $message = 'Hello, '. $order->first_name .' '. $order->middle_initial .'. '. $order->last_name . '. Your Order with Order ID # '.$order->id.' has been cancelled.';
         $recipient = $order->email;
 
-        $this->orderUpdateEmail($message, $recipient);
+        // $this->orderUpdateEmail($message, $recipient);
 
         return back()->with('success','Order Status Updated Successfully');
     }
